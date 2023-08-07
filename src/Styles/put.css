@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.putmain{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://wallpaperaccess.com/full/5484051.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.subdiv{
+    height: 510px;
+    width: 480px;
+    margin: auto 750px;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 8%;
+}
+.subdiv h1{
+    color: white;
+    margin: 15px auto;
+}
+.subdiv form input{
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin: 25px auto;
+    text-align: center;
+    color: white;
+}
+.subdiv form input:hover{
+    transform: scale(1.02);
+}
+input::placeholder{
+    color: white;
+}
+::-ms-input-placeholder{
+    color: white;
+}
+:-ms-input-placeholder{
+    color: white;
+}
+.subdiv form input:nth-child(5),.subdiv form input:nth-child(6)
+{
+    color: white;
+}
+.subdiv form input:nth-child(5):hover
+{
+    background:linear-gradient(to right,rgb(73, 24, 24),black);
+    transform: scale(1.02);
+    color: rgb(204, 194, 194);
+}
+.subdiv form input:nth-child(6):hover
+{
+    background:linear-gradient(to right,rgb(73, 24, 24),black);
+    transform: scale(1.02);
+    color: rgb(204, 194, 194);
+}

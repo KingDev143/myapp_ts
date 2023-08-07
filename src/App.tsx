@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import{BrowserRouter,Route,Routes,Link}from'react-router-dom'
+import PostData from '../src/Components/PostData';
+import GetData from '../src/Components/GetData';
+import PutData from '../src/Components/PutData';
+import DeleteUser from '../src/Components/DeleteUser';
+import Homepage from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BrowserRouter>
+    
+     <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/post' element={<PostData/>}/>
+      <Route path='/get' element={<GetData/>}/>
+      <Route path='/put' element={<PutData/>}/>
+      <Route path='/deletedata' element={<DeleteUser/>}/>
+    </Routes>
+     </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.deletediv{
+    height: 100vh;
+    width: 100vw;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_SRSCbRHK62o5FZm9JNdfoupavNgaY6kpyg&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+
+}
+.deletesubdiv{
+ height: 400px;
+ width: 400px;
+ margin: 200px;
+ border-radius: 40%;
+ border:1px solid rgb(10, 254, 213)
+ 
+}
+.deletesubdiv h1{
+    color: white;
+    text-shadow: 1px 1px 1px skyblue;
+    margin: 40px auto 10px auto;
+}
+.deletesubdiv form input{
+    height: 50px;
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(201, 199, 199);
+    border: 1px solid rgb(47, 231, 244);
+    box-shadow: 2px 2px 2px skyblue;
+    border-radius: 5px;
+}
+.deletesubdiv form input:hover{
+    transform: scale(1.02);
+}
+.deletesubdiv form input::placeholder{
+    color: black;
+}
+.deletesubdiv form input:nth-child(2){
+    background-color: rgb(8, 136, 138);
+    color: white;
+}
+.deletesubdiv form input:nth-child(2):hover{
+    background-color: rgb(10, 163, 165);
+    transform: scale(1.02);
+}
+.deletesubdiv form input:nth-child(3){
+    background-color: rgb(8, 136, 138);
+    color: white;
+}
+.deletesubdiv form input:nth-child(3):hover{
+    background-color: rgb(10, 163, 165);
+    transform: scale(1.02);
+}

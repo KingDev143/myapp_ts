@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mainget{
+    height: 100vh;
+    width:100vw;
+    background-image: url("https://img.freepik.com/free-vector/spot-lights-background_52683-43387.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.mainget h1{
+     padding-top: 20px;
+}
+.mainget button{
+    height: 40px;
+    width: 200px;
+}
+table{
+    text-align: center;
+    margin: 40px auto;
+    border: 1px solid black;
+    width: 550px;
+    height: 350px;
+    box-shadow: 2px 7px 9px black;
+}
+thead{
+    height: 40px;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+   
+}
